@@ -1,0 +1,16 @@
+/* Audit fixes: style replicas for retagged headings (visual parity) */
+.etfx-h3{font-family:'Poppins',sans-serif!important;font-weight:600!important;font-size:32px!important;line-height:44.8px!important;}
+@media (max-width:768px){.etfx-h3{font-size:23.712px!important;line-height:33.1968px!important;}}
+@media (max-width:544px){.etfx-h3{font-size:21.888px!important;line-height:30.6432px!important;}}
+
+.etfx-h4{font-family:'Poppins',sans-serif!important;font-weight:600!important;font-size:24px!important;line-height:28.8px!important;}
+@media (max-width:768px){.etfx-h4{font-size:20.064px!important;line-height:24.0768px!important;}}
+@media (max-width:544px){.etfx-h4{font-size:18.24px!important;line-height:21.888px!important;}}
+
+.etfx-h5{font-family:'Poppins',sans-serif!important;font-weight:600!important;font-size:20px!important;line-height:24px!important;}
+@media (max-width:768px){.etfx-h5{font-size:16.416px!important;line-height:19.6992px!important;}}
+@media (max-width:544px){.etfx-h5{font-size:14.592px!important;line-height:17.5104px!important;}}
+
+.etfx-h6{font-family:'Poppins',sans-serif!important;font-weight:600!important;font-size:12px!important;line-height:15px!important;}
+@media (max-width:768px){.etfx-h6{font-size:10.032px!important;line-height:12.54px!important;}}
+@media (max-width:544px){.etfx-h6{font-size:10.032px!important;line-height:12.54px!important;}}
