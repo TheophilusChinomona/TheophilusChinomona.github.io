@@ -54,6 +54,10 @@ as `edgetech-web-app` (Dokploy + Nginx).
 - WP live-chat widget (needs its own server; dead weight in a static mirror).
 - Astra starter-template preview script, WP emoji loader, WP REST/feeds/XML-RPC.
 
+All Elementor lazy-loaded webpack chunks are included (they load dynamically
+and a page-crawl mirror would otherwise 404 them, killing carousels and the
+background slideshow).
+
 ## Known gaps (faithful to the source, broken by nature of a static mirror)
 
 - The WPForms contact form still posts to WordPress `admin-ajax.php` — it
